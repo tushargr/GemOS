@@ -1,0 +1,84 @@
+GemOS# init
+Setting up init process ...
+Page table setup done, launching init ...
+
+Got a tick. #ticks = 1
+[GemOS] System call invoked. syscall no = 4
+
+Got a tick. #ticks = 2
+[GemOS] System call invoked. syscall no = 4
+
+Got a tick. #ticks = 3
+[GemOS] System call invoked. syscall no = 4
+
+Got a tick. #ticks = 4
+[GemOS] System call invoked. syscall no = 9
+child name: init2
+
+Got a tick. #ticks = 5
+
+scheduling: old pid = 1  new pid  = 2
+[GemOS] System call invoked. syscall no = 3
+Hello Hello
+
+Got a tick. #ticks = 6
+
+scheduling: old pid = 2  new pid  = 1
+[GemOS] System call invoked. syscall no = 9
+child name: init3
+
+Got a tick. #ticks = 7
+
+scheduling: old pid = 1  new pid  = 2
+[GemOS] System call invoked. syscall no = 1
+[GemOS] exit code = 0
+
+scheduling: old pid = 2  new pid  = 3
+
+Got a tick. #ticks = 8
+
+scheduling: old pid = 3  new pid  = 1
+[GemOS] System call invoked. syscall no = 9
+child name: init2
+
+Got a tick. #ticks = 9
+
+scheduling: old pid = 1  new pid  = 2
+[GemOS] System call invoked. syscall no = 3
+Once Again
+
+Got a tick. #ticks = 10
+
+scheduling: old pid = 2  new pid  = 3
+[GemOS] System call invoked. syscall no = 3
+Bye Bye
+
+Got a tick. #ticks = 11
+
+scheduling: old pid = 3  new pid  = 1
+[GemOS] System call invoked. syscall no = 3
+back to main
+
+Got a tick. #ticks = 12
+
+scheduling: old pid = 1  new pid  = 2
+[GemOS] System call invoked. syscall no = 1
+[GemOS] exit code = 0
+
+scheduling: old pid = 2  new pid  = 3
+
+Got a tick. #ticks = 13
+
+scheduling: old pid = 3  new pid  = 1
+[GemOS] System call invoked. syscall no = 1
+[GemOS] exit code = 0
+
+scheduling: old pid = 1  new pid  = 3
+
+Got a tick. #ticks = 14
+[GemOS] System call invoked. syscall no = 1
+[GemOS] exit code = 0
+Cleaned up init3 process
+GemOS shell again!
+GemOS# exit
+Connection closed by foreign host.

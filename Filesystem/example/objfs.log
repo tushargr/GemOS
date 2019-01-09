@@ -1,0 +1,60 @@
+objfs_init
+Done objstore init
+objfs_getattr: key=/.Trash
+objfs_getattr: key=/.xdg-volume-info
+objfs_getattr: key=/autorun.inf
+objfs_getattr: key=/.Trash-1001
+objfs_getattr: key=/autorun.inf
+objfs_getattr: key=/newCS330###1
+objfs_getattr: key=/newCS330###1
+objfs_open: key=/newCS330###1
+objfs_read: key=/newCS330###1 fh=2
+Doing read size = 4096
+objfs_getattr: key=/newCS330###1
+objfs_release: key=/newCS330###1
+objfs_getattr: key=/newCS330###1
+objfs_getattr: key=/CS330###1
+objfs_rename_key: oldkey=/newCS330###1
+objfs_getattr: key=/CS330###1
+objfs_open: key=/CS330###1
+objfs_read: key=/CS330###1 fh=2
+Doing read size = 4096
+objfs_release: key=/CS330###1
+objfs_getattr: key=/CS330###2
+objfs_open: key=/CS330###2
+objfs_read: key=/CS330###2 fh=3
+Doing read size = 4096
+objfs_release: key=/CS330###2
+objfs_getattr: key=/CS330###3
+objfs_open: key=/CS330###3
+objfs_read: key=/CS330###3 fh=4
+Doing read size = 4096
+objfs_release: key=/CS330###3
+objfs_getattr: key=/CS330###4
+objfs_open: key=/CS330###4
+objfs_read: key=/CS330###4 fh=5
+Doing read size = 4096
+objfs_release: key=/CS330###4
+objfs_getattr: key=/CS330###5
+objfs_open: key=/CS330###5
+objfs_read: key=/CS330###5 fh=6
+Doing read size = 4096
+objfs_release: key=/CS330###5
+objfs_getattr: key=/CS330###6
+objfs_open: key=/CS330###6
+objfs_read: key=/CS330###6 fh=7
+Doing read size = 4096
+objfs_release: key=/CS330###6
+objfs_getattr: key=/CS330###7
+objfs_open: key=/CS330###7
+objfs_read: key=/CS330###7 fh=8
+Doing read size = 4096
+objfs_release: key=/CS330###7
+objfs_getattr: key=/CS330###8
+objfs_open: key=/CS330###8
+objfs_read: key=/CS330###8 fh=9
+Doing read size = 4096
+objfs_release: key=/CS330###8
+objfs_getattr: key=/
+objfs_destroy
+Done objstore destroy

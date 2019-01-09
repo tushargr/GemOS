@@ -1,0 +1,315 @@
+objfs_init
+Done objstore init
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/.xdg-volume-info
+objfs_getattr: key=/autorun.inf
+objfs_getattr: key=/CS330###1
+objfs_create: key=/CS330###1
+CS330###1: 2
+objfs_getattr: key=/CS330###1
+
+I am finding: CS330###1 2
+objfs_getattr: key=/.Trash
+objfs_write: key=/CS330###1 fh=2
+
+--finding free: i-2080 j-7
+0
+ffffff80
+
+---free block: 16640
+
+--finding free: i-2080 j-6
+ffffff80
+ffffffc0
+
+---free block: 16641
+objfs_release: key=/CS330###1
+objfs_getattr: key=/CS330###2
+objfs_getattr: key=/
+objfs_create: key=/CS330###2
+CS330###2: 3
+objfs_getattr: key=/CS330###2
+
+I am finding: CS330###2 3
+objfs_write: key=/CS330###2 fh=3
+
+--finding free: i-2080 j-5
+ffffffc0
+ffffffe0
+
+---free block: 16642
+
+--finding free: i-2080 j-4
+ffffffe0
+objfs_getattr: key=/.Trash-1000
+fffffff0
+
+---free block: 16643
+objfs_getattr: key=/
+objfs_release: key=/CS330###2
+objfs_getattr: key=/CS330###3
+objfs_getattr: key=/
+objfs_create: key=/CS330###3
+CS330###3: 4
+objfs_getattr: key=/CS330###3
+
+I am finding: CS330###3 4
+objfs_write: key=/CS330###3 fh=4
+
+--finding free: i-2080 j-3
+fffffff0
+fffffff8
+
+---free block: 16644
+
+--finding free: i-2080 j-2
+fffffff8
+fffffffc
+
+---free block: 16645
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/CS330###4
+objfs_release: key=/CS330###3
+objfs_create: key=/CS330###4
+CS330###4: 5
+objfs_getattr: key=/CS330###4
+
+I am finding: CS330###4 5
+objfs_write: key=/CS330###4 fh=5
+
+--finding free: i-2080 j-1
+fffffffc
+fffffffe
+
+---free block: 16646
+
+--finding free: i-2080 j-0
+fffffffe
+ffffffff
+
+---free block: 16647
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_release: key=/CS330###4
+objfs_getattr: key=/CS330###5
+objfs_getattr: key=/
+objfs_create: key=/CS330###5
+CS330###5: 6
+objfs_getattr: key=/CS330###5
+
+I am finding: CS330###5 6
+objfs_write: key=/CS330###5 fh=6
+ffffffff ya
+
+--finding free: i-2081 j-7
+0
+ffffff80
+
+---free block: 16648
+ffffffff ya
+
+--finding free: i-2081 j-6
+ffffff80
+ffffffc0
+
+---free block: 16649
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/CS330###6
+objfs_release: key=/CS330###5
+objfs_getattr: key=/
+objfs_create: key=/CS330###6
+CS330###6: 7
+objfs_getattr: key=/CS330###6
+
+I am finding: CS330###6 7
+objfs_write: key=/CS330###6 fh=7
+ffffffff ya
+
+--finding free: i-2081 j-5
+ffffffc0
+ffffffe0
+
+---free block: 16650
+objfs_getattr: key=/
+ffffffff ya
+
+--finding free: i-2081 j-4
+ffffffe0
+fffffff0
+
+---free block: 16651
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_release: key=/CS330###6
+objfs_getattr: key=/CS330###7
+objfs_getattr: key=/
+objfs_create: key=/CS330###7
+CS330###7: 8
+objfs_getattr: key=/CS330###7
+
+I am finding: CS330###7 8
+objfs_write: key=/CS330###7 fh=8
+ffffffff ya
+
+--finding free: i-2081 j-3
+fffffff0
+fffffff8
+
+---free block: 16652
+ffffffff ya
+
+--finding free: i-2081 j-2
+fffffff8
+fffffffc
+
+---free block: 16653
+objfs_getattr: key=/autorun.inf
+objfs_release: key=/CS330###7
+objfs_getattr: key=/CS330###8
+objfs_create: key=/CS330###8
+CS330###8: 9
+objfs_getattr: key=/CS330###8
+
+I am finding: CS330###8 9
+objfs_write: key=/CS330###8 fh=9
+ffffffff ya
+
+--finding free: i-2081 j-1
+fffffffc
+fffffffe
+
+---free block: 16654
+ffffffff ya
+
+--finding free: i-2081 j-0
+fffffffe
+ffffffff
+
+---free block: 16655
+objfs_release: key=/CS330###8
+objfs_getattr: key=/
+objfs_getattr: key=/CS330###1
+
+I am finding: CS330###1 2
+objfs_open: key=/CS330###1
+
+I am finding: CS330###1 2
+objfs_read: key=/CS330###1 fh=2
+
+I am in read, id: 2 size: 4096
+objfs_getattr: key=/
+
+reading l1: A bno: 16640
+
+ll read: I am 1. Registered to CS330. 16641
+objfs_release: key=/CS330###1
+objfs_getattr: key=/CS330###2
+
+I am finding: CS330###2 3
+objfs_open: key=/CS330###2
+
+I am finding: CS330###2 3
+objfs_read: key=/CS330###2 fh=3
+
+I am in read, id: 3 size: 4096
+
+reading l1: A bno: 16642
+
+ll read: I am 2. Registered to CS330. 16643
+objfs_release: key=/CS330###2
+objfs_getattr: key=/CS330###3
+
+I am finding: CS330###3 4
+objfs_open: key=/CS330###3
+
+I am finding: CS330###3 4
+objfs_read: key=/CS330###3 fh=4
+
+I am in read, id: 4 size: 4096
+
+reading l1: A bno: 16644
+
+ll read: I am 3. Registered to CS330. 16645
+objfs_release: key=/CS330###3
+objfs_getattr: key=/CS330###4
+
+I am finding: CS330###4 5
+objfs_open: key=/CS330###4
+
+I am finding: CS330###4 5
+objfs_read: key=/CS330###4 fh=5
+
+I am in read, id: 5 size: 4096
+
+reading l1: A bno: 16646
+
+ll read: I am 4. Registered to CS330. 16647
+objfs_release: key=/CS330###4
+objfs_getattr: key=/CS330###5
+
+I am finding: CS330###5 6
+objfs_open: key=/CS330###5
+
+I am finding: CS330###5 6
+objfs_read: key=/CS330###5 fh=6
+
+I am in read, id: 6 size: 4096
+
+reading l1: 	A bno: 16648
+
+ll read: I am 5. Registered to CS330. 16649
+objfs_release: key=/CS330###5
+objfs_getattr: key=/CS330###6
+
+I am finding: CS330###6 7
+objfs_open: key=/CS330###6
+
+I am finding: CS330###6 7
+objfs_read: key=/CS330###6 fh=7
+
+I am in read, id: 7 size: 4096
+
+reading l1: A bno: 16650
+
+ll read: I am 6. Registered to CS330. 16651
+objfs_release: key=/CS330###6
+objfs_getattr: key=/CS330###7
+
+I am finding: CS330###7 8
+objfs_open: key=/CS330###7
+
+I am finding: CS330###7 8
+objfs_read: key=/CS330###7 fh=8
+
+I am in read, id: 8 size: 4096
+
+reading l1: A bno: 16652
+
+ll read: I am 7. Registered to CS330. 16653
+objfs_release: key=/CS330###7
+objfs_getattr: key=/CS330###8
+
+I am finding: CS330###8 9
+objfs_open: key=/CS330###8
+
+I am finding: CS330###8 9
+objfs_read: key=/CS330###8 fh=9
+
+I am in read, id: 9 size: 4096
+
+reading l1: A bno: 16654
+
+ll read: I am 8. Registered to CS330. 16655
+objfs_release: key=/CS330###8
+objfs_destroy
+Done objstore destroy
